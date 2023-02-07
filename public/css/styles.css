@@ -92,7 +92,7 @@ header p {
     margin-bottom: 15px;
 }
 
-header nav.listas{
+header nav.listas {
     align-items: center;
 }
 
@@ -225,21 +225,21 @@ footer span {
 
 @media(min-width:360px) and (max-width:768px) {
 
-  
+
     header div.logo img {
         min-width: 71%;
         max-width: 80%;
     }
 
-    header nav.listas{
+    header nav.listas {
         display: flex;
         justify-content: space-evenly;
     }
 
-    .listaSuperior{
+    .listaSuperior {
         display: flex;
     }
-    
+
     .listaInferior {
         display: flex;
     }
@@ -298,6 +298,28 @@ footer span {
         min-width: 81%;
         max-width: 85%;
     }
+
+    header nav.listas {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .listaSuperior {
+        display: flex;
+    }
+
+    .listaInferior {
+        display: flex;
+    }
+
+    header nav ul li a {
+        margin: 0 5px;
+    }
+
+
+
+
+
 
     .burger-menu {
         display: none;
